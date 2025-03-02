@@ -1,8 +1,8 @@
 /**
- * Extend the base Actor entity by defining a custom roll data structure which is ideal for the HoneyHeist system.
+ * Extend the base Actor entity by defining a custom roll data structure which is ideal for the CocaineOwlbear system.
  * @extends {Actor}
  */
-export class HoneyHeistActor extends Actor {
+export class CocaineOwlbearActor extends Actor {
 	/** @override */
 	// getRollData() {
 	// 	const data = super.getRollData();

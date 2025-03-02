@@ -1,14 +1,14 @@
-# Honey Heist
+# Cocaine Owlbear
 
 It’s Honeycon. You are going to undertake the greatest heist the world has ever seen. 
 Two Things – 
 One: You have a complex plan that requires precise timing.
 Two: You are a GODDAMN BEAR
 
-![Honey Heist Screenshot](https://github.com/jbhaywood/foundryvtt-honeyheist/blob/master/resources/images/screenshot.png?raw=true "Honey Heist Screenshot")
+![Cocaine Owlbear Screenshot](https://github.com/jbhaywood/foundryvtt-cocaineowlbear/blob/master/resources/images/screenshot.png?raw=true "Cocaine Owlbear Screenshot")
 
 ## Description
-Honey Heist is a one-page RPG by Grant Howitt available to download for free [here](https://gshowitt.itch.io/honey-heist). The system includes a character sheet for players and roll tables for the GM.
+Cocaine Owlbear is a one-page RPG by Grant Howitt available to download for free [here](https://gshowitt.itch.io/cocaine-owlbear). The system includes a character sheet for players and roll tables for the GM.
 
 ### For Players
 Open the actor the GM created for you. On the character sheet, you'll find options for each attribute which you can choose yourself or roll for. Click the die icon next to each to let the dice decide for you.

@@ -5,7 +5,7 @@
     {
       "_id": "eXiHC9vMQTrsgqUl",
       "type": 0,
-      "text": "Armed guards",
+      "text": "Magic Wards",
       "weight": 1,
       "range": [
         1,
@@ -22,7 +22,7 @@
     {
       "_id": "gFy9yQkaeOLxZwuJ",
       "type": 0,
-      "text": "Electronically locked doors",
+      "text": "Stout Dwarven Guards",
       "weight": 1,
       "range": [
         2,
@@ -39,7 +39,7 @@
     {
       "_id": "hjPxDHRvskvkqdbc",
       "type": 0,
-      "text": "Laser tripwire grids",
+      "text": "Stout Dwarven Guards",
       "weight": 1,
       "range": [
         3,
@@ -56,7 +56,7 @@
     {
       "_id": "15zfM2MtCOKYw10b",
       "type": 0,
-      "text": "CCTV network",
+      "text": "Barricades",
       "weight": 1,
       "range": [
         4,
@@ -73,7 +73,7 @@
     {
       "_id": "mVxexxX5OCwrkQjV",
       "type": 0,
-      "text": "\"Impenetrable\" Vault",
+      "text": "Hidden Passages & Secret Entrances",
       "weight": 1,
       "range": [
         5,
@@ -90,7 +90,7 @@
     {
       "_id": "vTR8rtkbSVuAoKNb",
       "type": 0,
-      "text": "Poison gas",
+      "text": "Traps!",
       "weight": 1,
       "range": [
         6,
@@ -108,6 +108,6 @@
   "replacement": true,
   "displayRoll": false,
   "_id": "m5q7q9GiDJrPqP9K",
-  "description": "(Roll Twice) The security at this year's HoneyCon is...",
+  "description": "The security is...",
   "formula": "1d6"
 }

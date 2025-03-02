@@ -3,12 +3,12 @@
  * @extends {ItemSheet}
  */
 
-export class HoneyHeistItemSheet extends ItemSheet {
+export class CocaineOwlbearItemSheet extends ItemSheet {
     /** @override */
 	static get defaultOptions() {
 		return mergeObject(super.defaultOptions, {
-			classes: ["honeyheist", "sheet", "item"],
-			template: "systems/honey-heist/templates/item-sheet.html",
+			classes: ["cocaineowlbear", "sheet", "item"],
+			template: "systems/cocaine-owlbear/templates/item-sheet.html",
 			width: 550,
 			height: 400
 		});

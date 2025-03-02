@@ -6,7 +6,7 @@
     {
       "_id": "3nPbgMfp6wYJQetU",
       "type": 0,
-      "text": "This place is rigged to blow!",
+      "text": "The Thieves Guild who sent the courier has sent a team of hunters to track down who killed him!",
       "weight": 1,
       "range": [
         1,
@@ -23,7 +23,7 @@
     {
       "_id": "W7mZOQhBx0j3BbHq",
       "type": 0,
-      "text": "The cops are en route!",
+      "text": "The whole thing was a set up!",
       "weight": 1,
       "range": [
         2,
@@ -40,7 +40,7 @@
     {
       "_id": "2TZB7BWtKjiAqC0z",
       "type": 0,
-      "text": "Look - a rival team of bears!",
+      "text": "There’s an identical party of similarly coked-up enchanted woodland creatures who found the courier’s corpse after the PCs did and are also seeking the same stash!",
       "weight": 1,
       "range": [
         3,
@@ -57,7 +57,7 @@
     {
       "_id": "HVRkdJ2QcRNR1ZFV",
       "type": 0,
-      "text": "They've been set up!",
+      "text": "There’s a stone golem guarding their prize!",
       "weight": 1,
       "range": [
         4,
@@ -74,7 +74,7 @@
     {
       "_id": "ad1Mi0yrOAfzQiEN",
       "type": 0,
-      "text": "The prize is a fake!",
+      "text": "A paladin squad is on their trail!",
       "weight": 1,
       "range": [
         5,
@@ -91,7 +91,7 @@
     {
       "_id": "MnkRXWqiy4gY0oLf",
       "type": 0,
-      "text": "The bees are angry!",
+      "text": "A cult of suicide bomber goblins invades the area!",
       "weight": 1,
       "range": [
         6,
@@ -113,7 +113,7 @@
   "flags": {
     "exportSource": {
       "world": "honey",
-      "system": "honey-heist",
+      "system": "cocaine-owlbear",
       "coreVersion": "0.8.7",
       "systemVersion": "1.1"
     }

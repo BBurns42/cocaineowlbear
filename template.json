@@ -2,7 +2,7 @@
 	"Actor": {
 		"types": [ "character" ],
 		"character": {
-			"biography": "<p>It’s Honeycon. You are going to undertake the greatest heist the world has ever seen. Two Things – </p><p>One: You have a complex plan that requires precise timing.</p><p>Two: You are a GODDAMN BEAR.</p><p>You're not a talking bear, per se, but you can sort of mangle human speech through your bear mouth, maybe?</p>",
+			"biography": "<p>You&rsquo;re a woodland creature who has recently gained sentience when you ingested magical cocaine<br>from the satchel of an unlucky traveler in your forest.</p><p><br>With your newfound intelligence, you plunder the belongings of the courier you killed. You find that he<br>or she had a complicated heist plan written on parchment and hidden in their satchel bag. But it&rsquo;s not<br>just any heist. It is a complicated heist that involves stealing more of the enchanted cocaine that has<br>granted you sentience and made you really jittery.</p><p><br>Can you take a chance that when the cocaine wears off you&rsquo;ll revert to being a mere woodland animal?<br>No.<br>No, you cannot.</p><p><br>You have to get more of that enchanted cocaine! Luckily, you have this written plan from the deceased courier that requires discipline and exact execution.</p><p><br>Unfortunately, you&rsquo;re a goddamned coked-out enchanted woodland creature prone to rage.&nbsp;</p>",
 			"stats": {
 				"bear": 3,
 				"criminal": 3
@@ -19,27 +19,27 @@
 					"dtype": "String"
 				},
 				"rookie": {
-					"label": "Rookie",
+					"label": "Aggressive",
 					"dtype": "String"
 				},
 				"washed-up": {
-					"label": "Washed-up",
+					"label": "Skittish",
 					"dtype": "String"
 				},
 				"retired": {
-					"label": "Retired",
+					"label": "Energetic",
 					"dtype": "String"
 				},
 				"unhinged": {
-					"label": "Unhinged",
+					"label": "Curious",
 					"dtype": "String"
 				},
 				"slick": {
-					"label": "Slick",
+					"label": "Clumsy",
 					"dtype": "String"
 				},
 				"incompetent": {
-					"label": "Incompetent",
+					"label": "Cunning",
 					"dtype": "String"
 				}
 			},
@@ -49,27 +49,27 @@
 					"dtype": "String"
 				},
 				"grizzly": {
-					"label": "Grizzly (Terrify)",
+					"label": "Owlbear: Ferocious Hugs",
 					"dtype": "String"
 				},
 				"polar": {
-					"label": "Polar (Swim)",
+					"label": "Ferret: Master of Disguise",
 					"dtype": "String"
 				},
 				"panda": {
-					"label": "Panda (Eat anything that looks like bamboo)",
+					"label": "Raccoon: Expert in Dumpster Diving",
 					"dtype": "String"
 				},
 				"black": {
-					"label": "Black (Climb)",
+					"label": "Raven: Flawless Mimicry",
 					"dtype": "String"
 				},
 				"sun": {
-					"label": "Sun (Sense honey)",
+					"label": "Deer: Startled Sprint",
 					"dtype": "String"
 				},
 				"honey-badger": {
-					"label": "Honey Badger (Carnage)",
+					"label": "Unicorn: Rainbow Teleportation",
 					"dtype": "String"
 				}
 			},
@@ -79,27 +79,27 @@
 					"dtype": "String"
 				},
 				"muscle": {
-					"label": "Muscle",
+					"label": "Mastermind",
 					"dtype": "String"
 				},
 				"brains": {
-					"label": "Brains",
+					"label": "Muscle",
 					"dtype": "String"
 				},
 				"driver": {
-					"label": "Driver",
+					"label": "Scout",
 					"dtype": "String"
 				},
 				"hacker": {
-					"label": "Hacker",
+					"label": "Face",
 					"dtype": "String"
 				},
 				"thief": {
-					"label": "Thief",
+					"label": "Technician",
 					"dtype": "String"
 				},
 				"face": {
-					"label": "Face",
+					"label": "Speed Demon",
 					"dtype": "String"
 				}
 			},
@@ -109,35 +109,27 @@
 					"dtype": "String"
 				},
 				"tribly": {
-					"label": "Tribly",
+					"label": "Small Quantity of Enchanted Cocaine",
 					"dtype": "String"
 				},
 				"top": {
-					"label": "Top",
+					"label": "Long Coat",
 					"dtype": "String"
 				},
 				"bowler": {
-					"label": "Bowler",
+					"label": "Old Donkey",
 					"dtype": "String"
 				},
 				"flat-cap": {
-					"label": "Flat Cap",
+					"label": "Fancy Tricorn Hat",
 					"dtype": "String"
 				},
 				"cowboy": {
-					"label": "Cowboy",
+					"label": "Scroll of Animal Communication",
 					"dtype": "String"
 				},
 				"fez": {
-					"label": "Fez",
-					"dtype": "String"
-				},
-				"crown": {
-					"label": "Crown",
-					"dtype": "String"
-				},
-				"roll-twice": {
-					"label": "Roll Twice!",
+					"label": "Rusty Flail",
 					"dtype": "String"
 				}
 			}

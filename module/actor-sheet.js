@@ -4,17 +4,17 @@
  */
 
 
-export class HoneyHeistActorSheet extends ActorSheet {
+export class CocaineOwlbearActorSheet extends ActorSheet {
 	/** @override */
 	static get defaultOptions() {
 		return mergeObject(super.defaultOptions, {
-			classes: ["honeyheist", "sheet", "actor"],
-			template: "systems/honey-heist/templates/actor-sheet.html",
-			width: 750,
+			classes: ["cocaineowlbear", "sheet", "actor"],
+			template: "systems/cocaine-owlbear/templates/actor-sheet.html",
+			width: 850,
 			height: 625,
 			scrollY: [ "hh-item-list" ],
             dragDrop: [{ dropSelector: null, dragSelector: '[draggable]' }],
-			resizable: false
+			resizable: true
 		});
 	}
 
@@ -151,7 +151,7 @@ export class HoneyHeistActorSheet extends ActorSheet {
 			const messageData = {
 				speaker: ChatMessage.getSpeaker({actor: this.actor}),
 				content: `
-					<div class="honeyheist">
+					<div class="cocaineowlbear">
 						<div class="chatItem flexrow">
 							<div class="item-image" tabindex="0" aria-label="${item.name}" style="background-image: url('${item.img}')"></div>
 							<h4>${item.name}</h4>

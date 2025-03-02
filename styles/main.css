@@ -109,11 +109,11 @@ input[type="datetime-local"] {
 }
 @font-face {
   font-family: Title;
-  src: url('/systems/honey-heist/resources/fonts/Chelsea_Market/ChelseaMarket-Regular.ttf');
+  src: url('/systems/cocaine-owlbear/resources/fonts/Chelsea_Market/ChelseaMarket-Regular.ttf');
 }
 @font-face {
   font-family: Body;
-  src: url('/systems/honey-heist/resources/fonts/Montserrat/Montserrat-Medium.ttf');
+  src: url('/systems/cocaine-owlbear/resources/fonts/Montserrat/Montserrat-Medium.ttf');
 }
 .grid-columns {
   display: grid;
@@ -136,18 +136,18 @@ input[type="datetime-local"] {
 .error-red {
   color: darkred !important;
 }
-.honeyheist .window-content {
+.cocaineowlbear .window-content {
   color: #1a1c20;
   height: 100%;
   padding: 10px;
   overflow-y: auto;
 }
-.honeyheist .sheet-panel {
+.cocaineowlbear .sheet-panel {
   display: grid;
   grid-template-rows: max-content max-content 1fr;
   gap: 10px;
 }
-.honeyheist .sheet-panel #stat-panel {
+.cocaineowlbear .sheet-panel #stat-panel {
   height: 100px;
   display: grid;
   grid-template-columns: 100px 1fr 1fr;
@@ -155,21 +155,21 @@ input[type="datetime-local"] {
   grid-template-areas: "portrait name name" "portrait bear criminal";
   gap: 10px;
 }
-.honeyheist .sheet-panel #stat-panel .profile-img {
+.cocaineowlbear .sheet-panel #stat-panel .profile-img {
   grid-area: portrait;
   height: 100px;
 }
-.honeyheist .sheet-panel #stat-panel .char-name {
+.cocaineowlbear .sheet-panel #stat-panel .char-name {
   grid-area: name;
   border-bottom: 0;
 }
-.honeyheist .sheet-panel #stat-panel .char-name input {
+.cocaineowlbear .sheet-panel #stat-panel .char-name input {
   width: 100%;
   height: 100%;
   margin: 0;
 }
-.honeyheist .sheet-panel #stat-panel #stat-bear,
-.honeyheist .sheet-panel #stat-panel #stat-criminal {
+.cocaineowlbear .sheet-panel #stat-panel #stat-bear,
+.cocaineowlbear .sheet-panel #stat-panel #stat-criminal {
   grid-area: bear;
   gap: 0;
   margin-top: -10px;
@@ -179,28 +179,28 @@ input[type="datetime-local"] {
   grid-template-areas: "title title title icon" "value die dice .";
   align-items: center;
 }
-.honeyheist .sheet-panel #stat-panel #stat-bear {
+.cocaineowlbear .sheet-panel #stat-panel #stat-bear {
   grid-area: bear;
 }
-.honeyheist .sheet-panel #stat-panel #stat-criminal {
+.cocaineowlbear .sheet-panel #stat-panel #stat-criminal {
   grid-area: criminal;
 }
-.honeyheist .sheet-panel #stat-panel .stat-title {
+.cocaineowlbear .sheet-panel #stat-panel .stat-title {
   grid-area: title;
 }
-.honeyheist .sheet-panel #stat-panel .stat-button {
+.cocaineowlbear .sheet-panel #stat-panel .stat-button {
   height: 40px;
   grid-area: icon;
 }
-.honeyheist .sheet-panel #stat-panel .stat-roll-single {
+.cocaineowlbear .sheet-panel #stat-panel .stat-roll-single {
   height: 35px;
   grid-area: die;
 }
-.honeyheist .sheet-panel #stat-panel .stat-roll-double {
+.cocaineowlbear .sheet-panel #stat-panel .stat-roll-double {
   height: 35px;
   grid-area: dice;
 }
-.honeyheist .sheet-panel #stat-panel .stat-value {
+.cocaineowlbear .sheet-panel #stat-panel .stat-value {
   font-size: 45px;
   font-family: Title;
   height: 50px;
@@ -210,76 +210,76 @@ input[type="datetime-local"] {
   background: transparent;
   grid-area: value;
 }
-.honeyheist .sheet-panel #attributes-panel,
-.honeyheist .sheet-panel #bio-panel {
+.cocaineowlbear .sheet-panel #attributes-panel,
+.cocaineowlbear .sheet-panel #bio-panel {
   max-height: 260px;
 }
-.honeyheist .sheet-panel #attributes-panel {
+.cocaineowlbear .sheet-panel #attributes-panel {
   margin-right: 0.5rem;
 }
-.honeyheist .sheet-panel #attributes-panel #attributes {
+.cocaineowlbear .sheet-panel #attributes-panel #attributes {
   display: grid;
   gap: 10px;
   margin-top: 10px;
 }
-.honeyheist .sheet-panel #attributes-panel .attribute {
+.cocaineowlbear .sheet-panel #attributes-panel .attribute {
   align-items: center;
   display: grid;
   gap: 10px;
-  grid-template-columns: 72px 200px 1fr;
+  grid-template-columns: 72px 300px 1fr;
 }
-.honeyheist .sheet-panel #bio-panel {
+.cocaineowlbear .sheet-panel #bio-panel {
   display: grid;
   grid-template-rows: max-content 1fr;
   flex: 1;
 }
-.honeyheist .sheet-panel #bio-panel .editor {
+.cocaineowlbear .sheet-panel #bio-panel .editor {
   min-height: 150px;
   max-height: 260px;
   overflow-y: auto;
 }
-.honeyheist .sheet-panel #middle-panel {
+.cocaineowlbear .sheet-panel #middle-panel {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
   margin-top: 14px;
 }
-.honeyheist .sheet-panel #items-panel .hh-item-list {
+.cocaineowlbear .sheet-panel #items-panel .hh-item-list {
   overflow-y: auto;
   height: 175px;
 }
-.honeyheist .sheet-panel #items-panel .add-item {
+.cocaineowlbear .sheet-panel #items-panel .add-item {
   font-size: 0.7rem;
   align-self: center;
 }
-.honeyheist .sheet-panel #items-panel .add-item:hover {
+.cocaineowlbear .sheet-panel #items-panel .add-item:hover {
   text-shadow: 2px 2px 4px var(--color-text-dark-5);
   cursor: pointer;
 }
-.honeyheist .sheet-panel #items-panel ol {
+.cocaineowlbear .sheet-panel #items-panel ol {
   list-style: none;
   margin: 0;
   overflow-y: auto;
   scrollbar-width: thin;
   padding: 0 5px;
 }
-.honeyheist .sheet-panel #items-panel .items-header {
+.cocaineowlbear .sheet-panel #items-panel .items-header {
   border-bottom: 1px solid var(--color-border-dark-5);
 }
-.honeyheist .sheet-panel #items-panel .items-header .item-name {
+.cocaineowlbear .sheet-panel #items-panel .items-header .item-name {
   padding-left: 5px;
   text-align: left;
   border-bottom: none;
 }
-.honeyheist .sheet-panel #items-panel .item-roll {
+.cocaineowlbear .sheet-panel #items-panel .item-roll {
   cursor: pointer;
 }
-.honeyheist .sheet-panel #items-panel .item-name {
+.cocaineowlbear .sheet-panel #items-panel .item-name {
   margin: 0;
   overflow: hidden;
   align-items: center;
 }
-.honeyheist .sheet-panel #items-panel .item-name .item-image {
+.cocaineowlbear .sheet-panel #items-panel .item-name .item-image {
   flex: 0 0 30px;
   height: 30px;
   width: 30px;
@@ -287,11 +287,11 @@ input[type="datetime-local"] {
   background-position: 50% 0;
   border: none;
 }
-.honeyheist .sheet-panel #items-panel .item-controls {
+.cocaineowlbear .sheet-panel #items-panel .item-controls {
   flex: 0 0 68px;
   align-items: center;
 }
-.honeyheist .chatItem .item-image {
+.cocaineowlbear .chatItem .item-image {
   flex: 0 0 15px;
   height: 15px;
   width: 15px;

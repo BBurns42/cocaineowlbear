@@ -3,8 +3,8 @@
   "sort": 100003,
   "flags": {
     "exportSource": {
-      "world": "test-honey-heist",
-      "system": "honey-heist",
+      "world": "test-cocaine-owlbear",
+      "system": "cocaine-owlbear",
       "coreVersion": "0.6.6",
       "systemVersion": 0.1
     }
@@ -14,7 +14,7 @@
       "_id": "tYYgmeMbt0rsH7KB",
       "flags": {},
       "type": 0,
-      "text": "Lakeside Camp",
+      "text": "Wizard’s Tower",
       "img": "icons/svg/d20-black.svg",
       "resultId": "",
       "weight": 1,
@@ -28,7 +28,7 @@
       "_id": "cgKqQHc3kcsxJu9O",
       "flags": {},
       "type": 0,
-      "text": "Fishing Village",
+      "text": "University",
       "img": "icons/svg/d20-black.svg",
       "resultId": "",
       "weight": 1,
@@ -42,7 +42,7 @@
       "_id": "n8IOfpjouZnIMrxy",
       "flags": {},
       "type": 0,
-      "text": "Metropolitan City",
+      "text": "Mountain Town",
       "img": "icons/svg/d20-black.svg",
       "resultId": "",
       "weight": 1,
@@ -56,7 +56,7 @@
       "_id": "0634eExS10cVTzt5",
       "flags": {},
       "type": 0,
-      "text": "Convention Center",
+      "text": "Temple",
       "img": "icons/svg/d20-black.svg",
       "resultId": "",
       "weight": 1,
@@ -70,7 +70,7 @@
       "_id": "c4IT7tHyfgE16fll",
       "flags": {},
       "type": 0,
-      "text": "Truck Convoy",
+      "text": "The Castle of the Local Warlord",
       "img": "icons/svg/d20-black.svg",
       "resultId": "",
       "weight": 1,
@@ -84,7 +84,7 @@
       "_id": "ZPsYPYSYULGFw042",
       "flags": {},
       "type": 0,
-      "text": "Wilderness Retreat",
+      "text": "Cave System",
       "img": "icons/svg/d20-black.svg",
       "resultId": "",
       "weight": 1,
@@ -98,6 +98,6 @@
   "replacement": true,
   "displayRoll": false,
   "_id": "o10aSoa1MmSv73Jm",
-  "description": "HoneyCon is being held in a...",
+  "description": "It is being held in a...",
   "formula": "1d6"
 }

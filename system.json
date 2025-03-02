@@ -1,10 +1,10 @@
 {
-  "id": "honey-heist",
-  "title": "Honey Heist",
-  "description": "It's HoneyCon. You are going to undertake the greatest heist the world has ever seen.",
-  "version": "1.61",
+  "id": "cocaine-owlbear",
+  "title": "Cocaine Owlbear",
+  "description": "You’re a woodland creature who has recently gained sentience when you ingested magical cocaine from the satchel of an unlucky traveler in your forest.",
+  "version": "1.62",
   "compatibility": {
-    "minimum": "10",
+    "minimum": "12",
     "verified": "12",
     "maximum": "12"
   },
@@ -30,6 +30,6 @@
   ],
   "url": "https://github.com/BBurns42/cocaineowlbear/",
   "manifest": "https://raw.githubusercontent.com/BBurns42/cocaineowlbear/main/system.json",
-  "download": "https://github.com/BBurns42/cocaineowlbear/archive/v1.61.zip",
+  "download": "https://github.com/BBurns42/cocaineowlbear/archive/v1.62.zip",
   "license": "LICENSE.txt"
 }

@@ -1,23 +1,23 @@
-import { HoneyHeistActor } from "./actor.js";
-import { HoneyHeistActorSheet } from "./actor-sheet.js";
-import { HoneyHeistItemSheet } from "./item-sheet.js";
+import { CocaineOwlbearActor } from "./actor.js";
+import { CocaineOwlbearActorSheet } from "./actor-sheet.js";
+import { CocaineOwlbearItemSheet } from "./item-sheet.js";
 
 Hooks.once("init", async function () {
-	console.log(`HoneyHeist: Initializing`);
+	console.log(`CocaineOwlbear: Initializing`);
 
 	// Define custom Entity classes
 	if (isNewerVersion(game.data.version, "0.8.0")) {
-		CONFIG.Actor.documentClass = HoneyHeistActor;
+		CONFIG.Actor.documentClass = CocaineOwlbearActor;
 	} else {
-		CONFIG.Actor.entityClass = HoneyHeistActor;
+		CONFIG.Actor.entityClass = CocaineOwlbearActor;
 	}
 
 	// Register sheet application classes
 	Actors.unregisterSheet("core", ActorSheet);
-	Actors.registerSheet("honeyheist", HoneyHeistActorSheet, { label: "Honey Heist Character Sheet (Default)", makeDefault: true });
+	Actors.registerSheet("cocaineowlbear", CocaineOwlbearActorSheet, { label: "Cocaine Owlbear Character Sheet (Default)", makeDefault: true });
 
 	Items.unregisterSheet("core", ItemSheet);
-	Items.registerSheet("honeyheist", HoneyHeistItemSheet, { label: "Honey Heist Item Sheet (Default)", makeDefault: true });
+	Items.registerSheet("cocaineowlbear", CocaineOwlbearItemSheet, { label: "Cocaine Owlbear Item Sheet (Default)", makeDefault: true });
 
 	Handlebars.registerHelper("removeProperty", function (obj, property) {
 		delete obj[property];
@@ -32,12 +32,12 @@ Hooks.once("ready", async function () {
 	const existingRollTables = [];
 	const rollTablesToAdd = [];
 	const rollTables = {
-		Organizer: "/systems/honey-heist/resources/roll-tables/fvtt-RollTable-Organizer.json",
-		Setting: "/systems/honey-heist/resources/roll-tables/fvtt-RollTable-Setting.json",
-		Location: "/systems/honey-heist/resources/roll-tables/fvtt-RollTable-Location.json",
-		Prize: "/systems/honey-heist/resources/roll-tables/fvtt-RollTable-Prize.json",
-		Security: "/systems/honey-heist/resources/roll-tables/fvtt-RollTable-Security.json",
-		Twist: "/systems/honey-heist/resources/roll-tables/fvtt-RollTable-Twist.json"
+		Organizer: "/systems/cocaine-owlbear/resources/roll-tables/fvtt-RollTable-Organizer.json",
+		Setting: "/systems/cocaine-owlbear/resources/roll-tables/fvtt-RollTable-Setting.json",
+		Location: "/systems/cocaine-owlbear/resources/roll-tables/fvtt-RollTable-Location.json",
+		Prize: "/systems/cocaine-owlbear/resources/roll-tables/fvtt-RollTable-Prize.json",
+		Security: "/systems/cocaine-owlbear/resources/roll-tables/fvtt-RollTable-Security.json",
+		Twist: "/systems/cocaine-owlbear/resources/roll-tables/fvtt-RollTable-Twist.json"
 	};
 
 	if (isNewerVersion(game.data.version, "0.8.0")) {
@@ -60,7 +60,7 @@ Hooks.once("ready", async function () {
 	RollTable.create(rollTablesToAdd);
 });
 
-Hooks.on("renderHoneyHeistActorSheet", (ev) => {
+Hooks.on("renderCocaineOwlbearActorSheet", (ev) => {
 	// Color a stat red if it's value is six.
 	const root = ev.element[0];
 	const bearStatElement = root.querySelector("#stat-bear .stat-value");
