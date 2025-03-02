@@ -29,7 +29,7 @@
     }
   ],
   "url": "https://github.com/BBurns42/cocaineowlbear/",
-  "manifest": "https://raw.githubusercontent.com/BBurns42/cocaineowlbear/master/system.json",
+  "manifest": "https://raw.githubusercontent.com/BBurns42/cocaineowlbear/main/system.json",
   "download": "https://github.com/BBurns42/cocaineowlbear/archive/v1.61.zip",
   "license": "LICENSE.txt"
 }
